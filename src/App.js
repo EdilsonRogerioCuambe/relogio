@@ -8,7 +8,9 @@ function App() {
     const endDate = new Date('2023-07-07T00:00:00');
 
     return (
-        <div className="flex flex-col items-center justify-center w-full h-screen text-white bg-gray-900">
+        <div 
+            className="flex flex-col items-center justify-center w-full h-screen text-white bg-gradient-to-b from-gray-500 to-slate-900"
+            >
             <Countdown endDate={endDate} />
         </div>
     );

@@ -34,7 +34,7 @@ const Countdown = ({
 
     return (
         <div
-            className='justify-center items-center'
+            className='justify-center items-center text-white'
         >
             <h1 className='text-4xl font-bold justify-center items-center text-center'>Contagem regressiva para o fim do semestre😉</h1>
             <div className='flex flex-row items-center justify-center w-full h-full py-6'>

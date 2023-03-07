@@ -39,10 +39,10 @@ function App() {
 
     return (
         <div
-            className="flex flex-col items-center px-4 mx-auto justify-center w-full h-screen bg-gradient-to-b from-gray-500 to-slate-900"
+            className="flex flex-col items-center px-4 mx-auto justify-center w-full h-screen bg-gradient-to-b from-gray-500 to-slate-900 pb-12"
         >
             <h1
-                className="text-4xl text-white py-6"
+                className="text-4xl text-white py-6 mt-4"
             >Calendário</h1>
             <div 
                 className="flex justify-center items-center py-6"
@@ -59,7 +59,7 @@ function App() {
                         className="flex flex-col justify-center items-center"
                     >
                         <h2
-                            className="text-2xl text-white py-6 text-center"
+                            className="text-2xl text-white py-6 text-center sm:py-10"
                         >{evento.nome}</h2>
                     </div>
                 ) : (
